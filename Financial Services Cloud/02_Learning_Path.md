@@ -1,4 +1,4 @@
-ated># 02_Learning_Path
+# 02_Learning_Path
 
 ## Folder
 Financial Services Cloud
