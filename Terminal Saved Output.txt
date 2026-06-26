@@ -1,0 +1,774 @@
+Last login: Fri Jun 26 12:40:38 on ttys000
+bakkaiah@Bakkaiahs-MacBook-Pro ~ % cd cd "/Users/bakkaiah/Developer/Co-Work/FSC-Knowedgebase"
+cd: string not in pwd: cd
+bakkaiah@Bakkaiahs-MacBook-Pro ~ % cd /Users/bakkaiah/Developer/Co-Work/FSC-Knowedgebase
+bakkaiah@Bakkaiahs-MacBook-Pro FSC-Knowedgebase % >....                                                                 
+
+## Intermediate Track
+
+Explain implementation and configuration.
+
+## Advanced Track
+
+Explain enterprise architecture, security, scale, and governance.
+
+## Notes
+
+Add curated content here.
+EOT
+      echo "✅ Created: $FILE_PATH"
+    else
+      echo "⏭️  Exists: $FILE_PATH"
+    fi
+  done
+done
+
+echo ""
+echo "✅ Done. Markdown files created successfully."
+echo ""
+echo "Check output using:"
+echo "find \"$PROJECT_ROOT\" -maxdepth 2 -name '*.md' | sort"
+EOF
+
+chmod +x create_stos_markdown.sh
+./create_stos_markdown.sh
+🚀 Creating Salesforce Trainer Operating System markdown files...
+✅ Created: Agent Builder/00_README.md
+✅ Created: Agent Builder/01_Official_Resources.md
+✅ Created: Agent Builder/02_Learning_Path.md
+✅ Created: Agent Builder/03_Key_Concepts.md
+✅ Created: Agent Builder/04_Architecture_Patterns.md
+✅ Created: Agent Builder/05_Hands_On_Labs.md
+✅ Created: Agent Builder/06_Interview_Questions.md
+✅ Created: Agent Builder/07_Trainer_Notes.md
+✅ Created: Agent Builder/08_Common_Mistakes.md
+✅ Created: Agent Builder/09_Whats_New.md
+✅ Created: Agentforce/00_README.md
+✅ Created: Agentforce/01_Official_Resources.md
+✅ Created: Agentforce/02_Learning_Path.md
+✅ Created: Agentforce/03_Key_Concepts.md
+✅ Created: Agentforce/04_Architecture_Patterns.md
+✅ Created: Agentforce/05_Hands_On_Labs.md
+✅ Created: Agentforce/06_Interview_Questions.md
+✅ Created: Agentforce/07_Trainer_Notes.md
+✅ Created: Agentforce/08_Common_Mistakes.md
+✅ Created: Agentforce/09_Whats_New.md
+✅ Created: AI/00_README.md
+✅ Created: AI/01_Official_Resources.md
+✅ Created: AI/02_Learning_Path.md
+✅ Created: AI/03_Key_Concepts.md
+✅ Created: AI/04_Architecture_Patterns.md
+✅ Created: AI/05_Hands_On_Labs.md
+✅ Created: AI/06_Interview_Questions.md
+✅ Created: AI/07_Trainer_Notes.md
+✅ Created: AI/08_Common_Mistakes.md
+✅ Created: AI/09_Whats_New.md
+✅ Created: Apex/00_README.md
+✅ Created: Apex/01_Official_Resources.md
+✅ Created: Apex/02_Learning_Path.md
+✅ Created: Apex/03_Key_Concepts.md
+✅ Created: Apex/04_Architecture_Patterns.md
+✅ Created: Apex/05_Hands_On_Labs.md
+✅ Created: Apex/06_Interview_Questions.md
+✅ Created: Apex/07_Trainer_Notes.md
+✅ Created: Apex/08_Common_Mistakes.md
+✅ Created: Apex/09_Whats_New.md
+✅ Created: Architecture/00_README.md
+✅ Created: Architecture/01_Official_Resources.md
+✅ Created: Architecture/02_Learning_Path.md
+✅ Created: Architecture/03_Key_Concepts.md
+✅ Created: Architecture/04_Architecture_Patterns.md
+✅ Created: Architecture/05_Hands_On_Labs.md
+✅ Created: Architecture/06_Interview_Questions.md
+✅ Created: Architecture/07_Trainer_Notes.md
+✅ Created: Architecture/08_Common_Mistakes.md
+✅ Created: Architecture/09_Whats_New.md
+✅ Created: Banking/00_README.md
+✅ Created: Banking/01_Official_Resources.md
+✅ Created: Banking/02_Learning_Path.md
+✅ Created: Banking/03_Key_Concepts.md
+✅ Created: Banking/04_Architecture_Patterns.md
+✅ Created: Banking/05_Hands_On_Labs.md
+✅ Created: Banking/06_Interview_Questions.md
+✅ Created: Banking/07_Trainer_Notes.md
+✅ Created: Banking/08_Common_Mistakes.md
+✅ Created: Banking/09_Whats_New.md
+✅ Created: CRM Analytics/00_README.md
+✅ Created: CRM Analytics/01_Official_Resources.md
+✅ Created: CRM Analytics/02_Learning_Path.md
+✅ Created: CRM Analytics/03_Key_Concepts.md
+✅ Created: CRM Analytics/04_Architecture_Patterns.md
+✅ Created: CRM Analytics/05_Hands_On_Labs.md
+✅ Created: CRM Analytics/06_Interview_Questions.md
+✅ Created: CRM Analytics/07_Trainer_Notes.md
+✅ Created: CRM Analytics/08_Common_Mistakes.md
+✅ Created: CRM Analytics/09_Whats_New.md
+✅ Created: Data Cloud/00_README.md
+✅ Created: Data Cloud/01_Official_Resources.md
+✅ Created: Data Cloud/02_Learning_Path.md
+✅ Created: Data Cloud/03_Key_Concepts.md
+✅ Created: Data Cloud/04_Architecture_Patterns.md
+✅ Created: Data Cloud/05_Hands_On_Labs.md
+✅ Created: Data Cloud/06_Interview_Questions.md
+✅ Created: Data Cloud/07_Trainer_Notes.md
+✅ Created: Data Cloud/08_Common_Mistakes.md
+✅ Created: Data Cloud/09_Whats_New.md
+✅ Created: Experience Cloud/00_README.md
+✅ Created: Experience Cloud/01_Official_Resources.md
+✅ Created: Experience Cloud/02_Learning_Path.md
+✅ Created: Experience Cloud/03_Key_Concepts.md
+✅ Created: Experience Cloud/04_Architecture_Patterns.md
+✅ Created: Experience Cloud/05_Hands_On_Labs.md
+✅ Created: Experience Cloud/06_Interview_Questions.md
+✅ Created: Experience Cloud/07_Trainer_Notes.md
+✅ Created: Experience Cloud/08_Common_Mistakes.md
+✅ Created: Experience Cloud/09_Whats_New.md
+✅ Created: Financial Services Cloud/00_README.md
+✅ Created: Financial Services Cloud/01_Official_Resources.md
+✅ Created: Financial Services Cloud/02_Learning_Path.md
+✅ Created: Financial Services Cloud/03_Key_Concepts.md
+✅ Created: Financial Services Cloud/04_Architecture_Patterns.md
+✅ Created: Financial Services Cloud/05_Hands_On_Labs.md
+✅ Created: Financial Services Cloud/06_Interview_Questions.md
+✅ Created: Financial Services Cloud/07_Trainer_Notes.md
+✅ Created: Financial Services Cloud/08_Common_Mistakes.md
+✅ Created: Financial Services Cloud/09_Whats_New.md
+✅ Created: Flow/00_README.md
+✅ Created: Flow/01_Official_Resources.md
+✅ Created: Flow/02_Learning_Path.md
+✅ Created: Flow/03_Key_Concepts.md
+✅ Created: Flow/04_Architecture_Patterns.md
+✅ Created: Flow/05_Hands_On_Labs.md
+✅ Created: Flow/06_Interview_Questions.md
+✅ Created: Flow/07_Trainer_Notes.md
+✅ Created: Flow/08_Common_Mistakes.md
+✅ Created: Flow/09_Whats_New.md
+✅ Created: FSC-Knowledgebase/00_README.md
+✅ Created: FSC-Knowledgebase/01_Official_Resources.md
+✅ Created: FSC-Knowledgebase/02_Learning_Path.md
+✅ Created: FSC-Knowledgebase/03_Key_Concepts.md
+✅ Created: FSC-Knowledgebase/04_Architecture_Patterns.md
+✅ Created: FSC-Knowledgebase/05_Hands_On_Labs.md
+✅ Created: FSC-Knowledgebase/06_Interview_Questions.md
+✅ Created: FSC-Knowledgebase/07_Trainer_Notes.md
+✅ Created: FSC-Knowledgebase/08_Common_Mistakes.md
+✅ Created: FSC-Knowledgebase/09_Whats_New.md
+✅ Created: Insurance/00_README.md
+✅ Created: Insurance/01_Official_Resources.md
+✅ Created: Insurance/02_Learning_Path.md
+✅ Created: Insurance/03_Key_Concepts.md
+✅ Created: Insurance/04_Architecture_Patterns.md
+✅ Created: Insurance/05_Hands_On_Labs.md
+✅ Created: Insurance/06_Interview_Questions.md
+✅ Created: Insurance/07_Trainer_Notes.md
+✅ Created: Insurance/08_Common_Mistakes.md
+✅ Created: Insurance/09_Whats_New.md
+✅ Created: Integration/00_README.md
+✅ Created: Integration/01_Official_Resources.md
+✅ Created: Integration/02_Learning_Path.md
+✅ Created: Integration/03_Key_Concepts.md
+✅ Created: Integration/04_Architecture_Patterns.md
+✅ Created: Integration/05_Hands_On_Labs.md
+✅ Created: Integration/06_Interview_Questions.md
+✅ Created: Integration/07_Trainer_Notes.md
+✅ Created: Integration/08_Common_Mistakes.md
+✅ Created: Integration/09_Whats_New.md
+✅ Created: LWC/00_README.md
+✅ Created: LWC/01_Official_Resources.md
+✅ Created: LWC/02_Learning_Path.md
+✅ Created: LWC/03_Key_Concepts.md
+✅ Created: LWC/04_Architecture_Patterns.md
+✅ Created: LWC/05_Hands_On_Labs.md
+✅ Created: LWC/06_Interview_Questions.md
+✅ Created: LWC/07_Trainer_Notes.md
+✅ Created: LWC/08_Common_Mistakes.md
+✅ Created: LWC/09_Whats_New.md
+✅ Created: OmniStudio/00_README.md
+✅ Created: OmniStudio/01_Official_Resources.md
+✅ Created: OmniStudio/02_Learning_Path.md
+✅ Created: OmniStudio/03_Key_Concepts.md
+✅ Created: OmniStudio/04_Architecture_Patterns.md
+✅ Created: OmniStudio/05_Hands_On_Labs.md
+✅ Created: OmniStudio/06_Interview_Questions.md
+✅ Created: OmniStudio/07_Trainer_Notes.md
+✅ Created: OmniStudio/08_Common_Mistakes.md
+✅ Created: OmniStudio/09_Whats_New.md
+✅ Created: Prompt Builder/00_README.md
+✅ Created: Prompt Builder/01_Official_Resources.md
+✅ Created: Prompt Builder/02_Learning_Path.md
+✅ Created: Prompt Builder/03_Key_Concepts.md
+✅ Created: Prompt Builder/04_Architecture_Patterns.md
+✅ Created: Prompt Builder/05_Hands_On_Labs.md
+✅ Created: Prompt Builder/06_Interview_Questions.md
+✅ Created: Prompt Builder/07_Trainer_Notes.md
+✅ Created: Prompt Builder/08_Common_Mistakes.md
+✅ Created: Prompt Builder/09_Whats_New.md
+✅ Created: Release Notes/00_README.md
+✅ Created: Release Notes/01_Official_Resources.md
+✅ Created: Release Notes/02_Learning_Path.md
+✅ Created: Release Notes/03_Key_Concepts.md
+✅ Created: Release Notes/04_Architecture_Patterns.md
+✅ Created: Release Notes/05_Hands_On_Labs.md
+✅ Created: Release Notes/06_Interview_Questions.md
+✅ Created: Release Notes/07_Trainer_Notes.md
+✅ Created: Release Notes/08_Common_Mistakes.md
+✅ Created: Release Notes/09_Whats_New.md
+✅ Created: Salesforce Platform/00_README.md
+✅ Created: Salesforce Platform/01_Official_Resources.md
+✅ Created: Salesforce Platform/02_Learning_Path.md
+✅ Created: Salesforce Platform/03_Key_Concepts.md
+✅ Created: Salesforce Platform/04_Architecture_Patterns.md
+✅ Created: Salesforce Platform/05_Hands_On_Labs.md
+✅ Created: Salesforce Platform/06_Interview_Questions.md
+✅ Created: Salesforce Platform/07_Trainer_Notes.md
+✅ Created: Salesforce Platform/08_Common_Mistakes.md
+✅ Created: Salesforce Platform/09_Whats_New.md
+✅ Created: Security/00_README.md
+✅ Created: Security/01_Official_Resources.md
+✅ Created: Security/02_Learning_Path.md
+✅ Created: Security/03_Key_Concepts.md
+✅ Created: Security/04_Architecture_Patterns.md
+✅ Created: Security/05_Hands_On_Labs.md
+✅ Created: Security/06_Interview_Questions.md
+✅ Created: Security/07_Trainer_Notes.md
+✅ Created: Security/08_Common_Mistakes.md
+✅ Created: Security/09_Whats_New.md
+✅ Created: Wealth/00_README.md
+✅ Created: Wealth/01_Official_Resources.md
+✅ Created: Wealth/02_Learning_Path.md
+✅ Created: Wealth/03_Key_Concepts.md
+✅ Created: Wealth/04_Architecture_Patterns.md
+✅ Created: Wealth/05_Hands_On_Labs.md
+✅ Created: Wealth/06_Interview_Questions.md
+✅ Created: Wealth/07_Trainer_Notes.md
+✅ Created: Wealth/08_Common_Mistakes.md
+✅ Created: Wealth/09_Whats_New.md
+
+✅ Done. Markdown files created successfully.
+
+Check output using:
+find "/Users/bakkaiah/Developer/Co-Work/FSC-Knowedgebase" -maxdepth 2 -name '*.md' | sort
+bakkaiah@Bakkaiahs-MacBook-Pro FSC-Knowedgebase % >....                                                                 
+
+## Intermediate Track
+
+Explain implementation and configuration.
+
+## Advanced Track
+
+Explain enterprise architecture, security, scale, and governance.
+
+## Notes
+
+Add curated content here.
+EOT
+      echo "✅ Created: $FILE_PATH"
+    else
+      echo "⏭️  Exists: $FILE_PATH"
+    fi
+  done
+done
+
+echo ""
+echo "✅ Done. Markdown files created successfully."
+echo ""
+echo "Check output using:"
+echo "find \"$PROJECT_ROOT\" -maxdepth 2 -name '*.md' | sort"
+EOF
+
+chmod +x create_stos_markdown.sh
+./create_stos_markdown.sh
+🚀 Creating Salesforce Trainer Operating System markdown files...
+⏭️  Exists: Agent Builder/00_README.md
+⏭️  Exists: Agent Builder/01_Official_Resources.md
+⏭️  Exists: Agent Builder/02_Learning_Path.md
+⏭️  Exists: Agent Builder/03_Key_Concepts.md
+⏭️  Exists: Agent Builder/04_Architecture_Patterns.md
+⏭️  Exists: Agent Builder/05_Hands_On_Labs.md
+⏭️  Exists: Agent Builder/06_Interview_Questions.md
+⏭️  Exists: Agent Builder/07_Trainer_Notes.md
+⏭️  Exists: Agent Builder/08_Common_Mistakes.md
+⏭️  Exists: Agent Builder/09_Whats_New.md
+⏭️  Exists: Agentforce/00_README.md
+⏭️  Exists: Agentforce/01_Official_Resources.md
+⏭️  Exists: Agentforce/02_Learning_Path.md
+⏭️  Exists: Agentforce/03_Key_Concepts.md
+⏭️  Exists: Agentforce/04_Architecture_Patterns.md
+⏭️  Exists: Agentforce/05_Hands_On_Labs.md
+⏭️  Exists: Agentforce/06_Interview_Questions.md
+⏭️  Exists: Agentforce/07_Trainer_Notes.md
+⏭️  Exists: Agentforce/08_Common_Mistakes.md
+⏭️  Exists: Agentforce/09_Whats_New.md
+⏭️  Exists: AI/00_README.md
+⏭️  Exists: AI/01_Official_Resources.md
+⏭️  Exists: AI/02_Learning_Path.md
+⏭️  Exists: AI/03_Key_Concepts.md
+⏭️  Exists: AI/04_Architecture_Patterns.md
+⏭️  Exists: AI/05_Hands_On_Labs.md
+⏭️  Exists: AI/06_Interview_Questions.md
+⏭️  Exists: AI/07_Trainer_Notes.md
+⏭️  Exists: AI/08_Common_Mistakes.md
+⏭️  Exists: AI/09_Whats_New.md
+⏭️  Exists: Apex/00_README.md
+⏭️  Exists: Apex/01_Official_Resources.md
+⏭️  Exists: Apex/02_Learning_Path.md
+⏭️  Exists: Apex/03_Key_Concepts.md
+⏭️  Exists: Apex/04_Architecture_Patterns.md
+⏭️  Exists: Apex/05_Hands_On_Labs.md
+⏭️  Exists: Apex/06_Interview_Questions.md
+⏭️  Exists: Apex/07_Trainer_Notes.md
+⏭️  Exists: Apex/08_Common_Mistakes.md
+⏭️  Exists: Apex/09_Whats_New.md
+⏭️  Exists: Architecture/00_README.md
+⏭️  Exists: Architecture/01_Official_Resources.md
+⏭️  Exists: Architecture/02_Learning_Path.md
+⏭️  Exists: Architecture/03_Key_Concepts.md
+⏭️  Exists: Architecture/04_Architecture_Patterns.md
+⏭️  Exists: Architecture/05_Hands_On_Labs.md
+⏭️  Exists: Architecture/06_Interview_Questions.md
+⏭️  Exists: Architecture/07_Trainer_Notes.md
+⏭️  Exists: Architecture/08_Common_Mistakes.md
+⏭️  Exists: Architecture/09_Whats_New.md
+⏭️  Exists: Banking/00_README.md
+⏭️  Exists: Banking/01_Official_Resources.md
+⏭️  Exists: Banking/02_Learning_Path.md
+⏭️  Exists: Banking/03_Key_Concepts.md
+⏭️  Exists: Banking/04_Architecture_Patterns.md
+⏭️  Exists: Banking/05_Hands_On_Labs.md
+⏭️  Exists: Banking/06_Interview_Questions.md
+⏭️  Exists: Banking/07_Trainer_Notes.md
+⏭️  Exists: Banking/08_Common_Mistakes.md
+⏭️  Exists: Banking/09_Whats_New.md
+⏭️  Exists: CRM Analytics/00_README.md
+⏭️  Exists: CRM Analytics/01_Official_Resources.md
+⏭️  Exists: CRM Analytics/02_Learning_Path.md
+⏭️  Exists: CRM Analytics/03_Key_Concepts.md
+⏭️  Exists: CRM Analytics/04_Architecture_Patterns.md
+⏭️  Exists: CRM Analytics/05_Hands_On_Labs.md
+⏭️  Exists: CRM Analytics/06_Interview_Questions.md
+⏭️  Exists: CRM Analytics/07_Trainer_Notes.md
+⏭️  Exists: CRM Analytics/08_Common_Mistakes.md
+⏭️  Exists: CRM Analytics/09_Whats_New.md
+⏭️  Exists: Data Cloud/00_README.md
+⏭️  Exists: Data Cloud/01_Official_Resources.md
+⏭️  Exists: Data Cloud/02_Learning_Path.md
+⏭️  Exists: Data Cloud/03_Key_Concepts.md
+⏭️  Exists: Data Cloud/04_Architecture_Patterns.md
+⏭️  Exists: Data Cloud/05_Hands_On_Labs.md
+⏭️  Exists: Data Cloud/06_Interview_Questions.md
+⏭️  Exists: Data Cloud/07_Trainer_Notes.md
+⏭️  Exists: Data Cloud/08_Common_Mistakes.md
+⏭️  Exists: Data Cloud/09_Whats_New.md
+⏭️  Exists: Experience Cloud/00_README.md
+⏭️  Exists: Experience Cloud/01_Official_Resources.md
+⏭️  Exists: Experience Cloud/02_Learning_Path.md
+⏭️  Exists: Experience Cloud/03_Key_Concepts.md
+⏭️  Exists: Experience Cloud/04_Architecture_Patterns.md
+⏭️  Exists: Experience Cloud/05_Hands_On_Labs.md
+⏭️  Exists: Experience Cloud/06_Interview_Questions.md
+⏭️  Exists: Experience Cloud/07_Trainer_Notes.md
+⏭️  Exists: Experience Cloud/08_Common_Mistakes.md
+⏭️  Exists: Experience Cloud/09_Whats_New.md
+⏭️  Exists: Financial Services Cloud/00_README.md
+⏭️  Exists: Financial Services Cloud/01_Official_Resources.md
+⏭️  Exists: Financial Services Cloud/02_Learning_Path.md
+⏭️  Exists: Financial Services Cloud/03_Key_Concepts.md
+⏭️  Exists: Financial Services Cloud/04_Architecture_Patterns.md
+⏭️  Exists: Financial Services Cloud/05_Hands_On_Labs.md
+⏭️  Exists: Financial Services Cloud/06_Interview_Questions.md
+⏭️  Exists: Financial Services Cloud/07_Trainer_Notes.md
+⏭️  Exists: Financial Services Cloud/08_Common_Mistakes.md
+⏭️  Exists: Financial Services Cloud/09_Whats_New.md
+⏭️  Exists: Flow/00_README.md
+⏭️  Exists: Flow/01_Official_Resources.md
+⏭️  Exists: Flow/02_Learning_Path.md
+⏭️  Exists: Flow/03_Key_Concepts.md
+⏭️  Exists: Flow/04_Architecture_Patterns.md
+⏭️  Exists: Flow/05_Hands_On_Labs.md
+⏭️  Exists: Flow/06_Interview_Questions.md
+⏭️  Exists: Flow/07_Trainer_Notes.md
+⏭️  Exists: Flow/08_Common_Mistakes.md
+⏭️  Exists: Flow/09_Whats_New.md
+⏭️  Exists: FSC-Knowledgebase/00_README.md
+⏭️  Exists: FSC-Knowledgebase/01_Official_Resources.md
+⏭️  Exists: FSC-Knowledgebase/02_Learning_Path.md
+⏭️  Exists: FSC-Knowledgebase/03_Key_Concepts.md
+⏭️  Exists: FSC-Knowledgebase/04_Architecture_Patterns.md
+⏭️  Exists: FSC-Knowledgebase/05_Hands_On_Labs.md
+⏭️  Exists: FSC-Knowledgebase/06_Interview_Questions.md
+⏭️  Exists: FSC-Knowledgebase/07_Trainer_Notes.md
+⏭️  Exists: FSC-Knowledgebase/08_Common_Mistakes.md
+⏭️  Exists: FSC-Knowledgebase/09_Whats_New.md
+⏭️  Exists: Insurance/00_README.md
+⏭️  Exists: Insurance/01_Official_Resources.md
+⏭️  Exists: Insurance/02_Learning_Path.md
+⏭️  Exists: Insurance/03_Key_Concepts.md
+⏭️  Exists: Insurance/04_Architecture_Patterns.md
+⏭️  Exists: Insurance/05_Hands_On_Labs.md
+⏭️  Exists: Insurance/06_Interview_Questions.md
+⏭️  Exists: Insurance/07_Trainer_Notes.md
+⏭️  Exists: Insurance/08_Common_Mistakes.md
+⏭️  Exists: Insurance/09_Whats_New.md
+⏭️  Exists: Integration/00_README.md
+⏭️  Exists: Integration/01_Official_Resources.md
+⏭️  Exists: Integration/02_Learning_Path.md
+⏭️  Exists: Integration/03_Key_Concepts.md
+⏭️  Exists: Integration/04_Architecture_Patterns.md
+⏭️  Exists: Integration/05_Hands_On_Labs.md
+⏭️  Exists: Integration/06_Interview_Questions.md
+⏭️  Exists: Integration/07_Trainer_Notes.md
+⏭️  Exists: Integration/08_Common_Mistakes.md
+⏭️  Exists: Integration/09_Whats_New.md
+⏭️  Exists: LWC/00_README.md
+⏭️  Exists: LWC/01_Official_Resources.md
+⏭️  Exists: LWC/02_Learning_Path.md
+⏭️  Exists: LWC/03_Key_Concepts.md
+⏭️  Exists: LWC/04_Architecture_Patterns.md
+⏭️  Exists: LWC/05_Hands_On_Labs.md
+⏭️  Exists: LWC/06_Interview_Questions.md
+⏭️  Exists: LWC/07_Trainer_Notes.md
+⏭️  Exists: LWC/08_Common_Mistakes.md
+⏭️  Exists: LWC/09_Whats_New.md
+⏭️  Exists: OmniStudio/00_README.md
+⏭️  Exists: OmniStudio/01_Official_Resources.md
+⏭️  Exists: OmniStudio/02_Learning_Path.md
+⏭️  Exists: OmniStudio/03_Key_Concepts.md
+⏭️  Exists: OmniStudio/04_Architecture_Patterns.md
+⏭️  Exists: OmniStudio/05_Hands_On_Labs.md
+⏭️  Exists: OmniStudio/06_Interview_Questions.md
+⏭️  Exists: OmniStudio/07_Trainer_Notes.md
+⏭️  Exists: OmniStudio/08_Common_Mistakes.md
+⏭️  Exists: OmniStudio/09_Whats_New.md
+⏭️  Exists: Prompt Builder/00_README.md
+⏭️  Exists: Prompt Builder/01_Official_Resources.md
+⏭️  Exists: Prompt Builder/02_Learning_Path.md
+⏭️  Exists: Prompt Builder/03_Key_Concepts.md
+⏭️  Exists: Prompt Builder/04_Architecture_Patterns.md
+⏭️  Exists: Prompt Builder/05_Hands_On_Labs.md
+⏭️  Exists: Prompt Builder/06_Interview_Questions.md
+⏭️  Exists: Prompt Builder/07_Trainer_Notes.md
+⏭️  Exists: Prompt Builder/08_Common_Mistakes.md
+⏭️  Exists: Prompt Builder/09_Whats_New.md
+⏭️  Exists: Release Notes/00_README.md
+⏭️  Exists: Release Notes/01_Official_Resources.md
+⏭️  Exists: Release Notes/02_Learning_Path.md
+⏭️  Exists: Release Notes/03_Key_Concepts.md
+⏭️  Exists: Release Notes/04_Architecture_Patterns.md
+⏭️  Exists: Release Notes/05_Hands_On_Labs.md
+⏭️  Exists: Release Notes/06_Interview_Questions.md
+⏭️  Exists: Release Notes/07_Trainer_Notes.md
+⏭️  Exists: Release Notes/08_Common_Mistakes.md
+⏭️  Exists: Release Notes/09_Whats_New.md
+⏭️  Exists: Salesforce Platform/00_README.md
+⏭️  Exists: Salesforce Platform/01_Official_Resources.md
+⏭️  Exists: Salesforce Platform/02_Learning_Path.md
+⏭️  Exists: Salesforce Platform/03_Key_Concepts.md
+⏭️  Exists: Salesforce Platform/04_Architecture_Patterns.md
+⏭️  Exists: Salesforce Platform/05_Hands_On_Labs.md
+⏭️  Exists: Salesforce Platform/06_Interview_Questions.md
+⏭️  Exists: Salesforce Platform/07_Trainer_Notes.md
+⏭️  Exists: Salesforce Platform/08_Common_Mistakes.md
+⏭️  Exists: Salesforce Platform/09_Whats_New.md
+⏭️  Exists: Security/00_README.md
+⏭️  Exists: Security/01_Official_Resources.md
+⏭️  Exists: Security/02_Learning_Path.md
+⏭️  Exists: Security/03_Key_Concepts.md
+⏭️  Exists: Security/04_Architecture_Patterns.md
+⏭️  Exists: Security/05_Hands_On_Labs.md
+⏭️  Exists: Security/06_Interview_Questions.md
+⏭️  Exists: Security/07_Trainer_Notes.md
+⏭️  Exists: Security/08_Common_Mistakes.md
+⏭️  Exists: Security/09_Whats_New.md
+⏭️  Exists: Wealth/00_README.md
+⏭️  Exists: Wealth/01_Official_Resources.md
+⏭️  Exists: Wealth/02_Learning_Path.md
+⏭️  Exists: Wealth/03_Key_Concepts.md
+⏭️  Exists: Wealth/04_Architecture_Patterns.md
+⏭️  Exists: Wealth/05_Hands_On_Labs.md
+⏭️  Exists: Wealth/06_Interview_Questions.md
+⏭️  Exists: Wealth/07_Trainer_Notes.md
+⏭️  Exists: Wealth/08_Common_Mistakes.md
+⏭️  Exists: Wealth/09_Whats_New.md
+
+✅ Done. Markdown files created successfully.
+
+Check output using:
+find "/Users/bakkaiah/Developer/Co-Work/FSC-Knowedgebase" -maxdepth 2 -name '*.md' | sort
+bakkaiah@Bakkaiahs-MacBook-Pro FSC-Knowedgebase % 
+bakkaiah@Bakkaiahs-MacBook-Pro FSC-Knowedgebase % git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/bakkaiah/Developer/Co-Work/FSC-Knowedgebase/.git/
+bakkaiah@Bakkaiahs-MacBook-Pro FSC-Knowedgebase % git add .
+bakkaiah@Bakkaiahs-MacBook-Pro FSC-Knowedgebase % git commit -m "Initial STOS structure"
+[master (root-commit) e7cdf5c] Initial STOS structure
+ 215 files changed, 8866 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 AI/00_README.md
+ create mode 100644 AI/01_Official_Resources.md
+ create mode 100644 AI/02_Learning_Path.md
+ create mode 100644 AI/03_Key_Concepts.md
+ create mode 100644 AI/04_Architecture_Patterns.md
+ create mode 100644 AI/05_Hands_On_Labs.md
+ create mode 100644 AI/06_Interview_Questions.md
+ create mode 100644 AI/07_Trainer_Notes.md
+ create mode 100644 AI/08_Common_Mistakes.md
+ create mode 100644 AI/09_Whats_New.md
+ create mode 100644 Agent Builder/00_README.md
+ create mode 100644 Agent Builder/01_Official_Resources.md
+ create mode 100644 Agent Builder/02_Learning_Path.md
+ create mode 100644 Agent Builder/03_Key_Concepts.md
+ create mode 100644 Agent Builder/04_Architecture_Patterns.md
+ create mode 100644 Agent Builder/05_Hands_On_Labs.md
+ create mode 100644 Agent Builder/06_Interview_Questions.md
+ create mode 100644 Agent Builder/07_Trainer_Notes.md
+ create mode 100644 Agent Builder/08_Common_Mistakes.md
+ create mode 100644 Agent Builder/09_Whats_New.md
+ create mode 100644 Agentforce/00_README.md
+ create mode 100644 Agentforce/01_Official_Resources.md
+ create mode 100644 Agentforce/02_Learning_Path.md
+ create mode 100644 Agentforce/03_Key_Concepts.md
+ create mode 100644 Agentforce/04_Architecture_Patterns.md
+ create mode 100644 Agentforce/05_Hands_On_Labs.md
+ create mode 100644 Agentforce/06_Interview_Questions.md
+ create mode 100644 Agentforce/07_Trainer_Notes.md
+ create mode 100644 Agentforce/08_Common_Mistakes.md
+ create mode 100644 Agentforce/09_Whats_New.md
+ create mode 100644 Apex/00_README.md
+ create mode 100644 Apex/01_Official_Resources.md
+ create mode 100644 Apex/02_Learning_Path.md
+ create mode 100644 Apex/03_Key_Concepts.md
+ create mode 100644 Apex/04_Architecture_Patterns.md
+ create mode 100644 Apex/05_Hands_On_Labs.md
+ create mode 100644 Apex/06_Interview_Questions.md
+ create mode 100644 Apex/07_Trainer_Notes.md
+ create mode 100644 Apex/08_Common_Mistakes.md
+ create mode 100644 Apex/09_Whats_New.md
+ create mode 100644 Architecture/00_README.md
+ create mode 100644 Architecture/01_Official_Resources.md
+ create mode 100644 Architecture/02_Learning_Path.md
+ create mode 100644 Architecture/03_Key_Concepts.md
+ create mode 100644 Architecture/04_Architecture_Patterns.md
+ create mode 100644 Architecture/05_Hands_On_Labs.md
+ create mode 100644 Architecture/06_Interview_Questions.md
+ create mode 100644 Architecture/07_Trainer_Notes.md
+ create mode 100644 Architecture/08_Common_Mistakes.md
+ create mode 100644 Architecture/09_Whats_New.md
+ create mode 100644 Banking/00_README.md
+ create mode 100644 Banking/01_Official_Resources.md
+ create mode 100644 Banking/02_Learning_Path.md
+ create mode 100644 Banking/03_Key_Concepts.md
+ create mode 100644 Banking/04_Architecture_Patterns.md
+ create mode 100644 Banking/05_Hands_On_Labs.md
+ create mode 100644 Banking/06_Interview_Questions.md
+ create mode 100644 Banking/07_Trainer_Notes.md
+ create mode 100644 Banking/08_Common_Mistakes.md
+ create mode 100644 Banking/09_Whats_New.md
+ create mode 100644 CRM Analytics/00_README.md
+ create mode 100644 CRM Analytics/01_Official_Resources.md
+ create mode 100644 CRM Analytics/02_Learning_Path.md
+ create mode 100644 CRM Analytics/03_Key_Concepts.md
+ create mode 100644 CRM Analytics/04_Architecture_Patterns.md
+ create mode 100644 CRM Analytics/05_Hands_On_Labs.md
+ create mode 100644 CRM Analytics/06_Interview_Questions.md
+ create mode 100644 CRM Analytics/07_Trainer_Notes.md
+ create mode 100644 CRM Analytics/08_Common_Mistakes.md
+ create mode 100644 CRM Analytics/09_Whats_New.md
+ create mode 100644 Data Cloud/00_README.md
+ create mode 100644 Data Cloud/01_Official_Resources.md
+ create mode 100644 Data Cloud/02_Learning_Path.md
+ create mode 100644 Data Cloud/03_Key_Concepts.md
+ create mode 100644 Data Cloud/04_Architecture_Patterns.md
+ create mode 100644 Data Cloud/05_Hands_On_Labs.md
+ create mode 100644 Data Cloud/06_Interview_Questions.md
+ create mode 100644 Data Cloud/07_Trainer_Notes.md
+ create mode 100644 Data Cloud/08_Common_Mistakes.md
+ create mode 100644 Data Cloud/09_Whats_New.md
+ create mode 100644 Experience Cloud/00_README.md
+ create mode 100644 Experience Cloud/01_Official_Resources.md
+ create mode 100644 Experience Cloud/02_Learning_Path.md
+ create mode 100644 Experience Cloud/03_Key_Concepts.md
+ create mode 100644 Experience Cloud/04_Architecture_Patterns.md
+ create mode 100644 Experience Cloud/05_Hands_On_Labs.md
+ create mode 100644 Experience Cloud/06_Interview_Questions.md
+ create mode 100644 Experience Cloud/07_Trainer_Notes.md
+ create mode 100644 Experience Cloud/08_Common_Mistakes.md
+ create mode 100644 Experience Cloud/09_Whats_New.md
+ create mode 100644 FSC-Knowledgebase/00_README.md
+ create mode 100644 FSC-Knowledgebase/01_Official_Resources.md
+ create mode 100644 FSC-Knowledgebase/02_Learning_Path.md
+ create mode 100644 FSC-Knowledgebase/03_Key_Concepts.md
+ create mode 100644 FSC-Knowledgebase/04_Architecture_Patterns.md
+ create mode 100644 FSC-Knowledgebase/05_Hands_On_Labs.md
+ create mode 100644 FSC-Knowledgebase/06_Interview_Questions.md
+ create mode 100644 FSC-Knowledgebase/07_Trainer_Notes.md
+ create mode 100644 FSC-Knowledgebase/08_Common_Mistakes.md
+ create mode 100644 FSC-Knowledgebase/09_Whats_New.md
+ create mode 100644 FSC-Knowledgebase/MASTER_INSTRUCTIONS.md
+ create mode 100644 FSC-Knowledgebase/MASTER_INSTRUCTIONS.md.save
+ create mode 100644 Financial Services Cloud/00_README.md
+ create mode 100644 Financial Services Cloud/01_Official_Resources.md
+ create mode 100644 Financial Services Cloud/02_Learning_Path.md
+ create mode 100644 Financial Services Cloud/03_Key_Concepts.md
+ create mode 100644 Financial Services Cloud/04_Architecture_Patterns.md
+ create mode 100644 Financial Services Cloud/05_Hands_On_Labs.md
+ create mode 100644 Financial Services Cloud/06_Interview_Questions.md
+ create mode 100644 Financial Services Cloud/07_Trainer_Notes.md
+ create mode 100644 Financial Services Cloud/08_Common_Mistakes.md
+ create mode 100644 Financial Services Cloud/09_Whats_New.md
+ create mode 100644 Flow/00_README.md
+ create mode 100644 Flow/01_Official_Resources.md
+ create mode 100644 Flow/02_Learning_Path.md
+ create mode 100644 Flow/03_Key_Concepts.md
+ create mode 100644 Flow/04_Architecture_Patterns.md
+ create mode 100644 Flow/05_Hands_On_Labs.md
+ create mode 100644 Flow/06_Interview_Questions.md
+ create mode 100644 Flow/07_Trainer_Notes.md
+ create mode 100644 Flow/08_Common_Mistakes.md
+ create mode 100644 Flow/09_Whats_New.md
+ create mode 100644 Insurance/00_README.md
+ create mode 100644 Insurance/01_Official_Resources.md
+ create mode 100644 Insurance/02_Learning_Path.md
+ create mode 100644 Insurance/03_Key_Concepts.md
+ create mode 100644 Insurance/04_Architecture_Patterns.md
+ create mode 100644 Insurance/05_Hands_On_Labs.md
+ create mode 100644 Insurance/06_Interview_Questions.md
+ create mode 100644 Insurance/07_Trainer_Notes.md
+ create mode 100644 Insurance/08_Common_Mistakes.md
+ create mode 100644 Insurance/09_Whats_New.md
+ create mode 100644 Integration/00_README.md
+ create mode 100644 Integration/01_Official_Resources.md
+ create mode 100644 Integration/02_Learning_Path.md
+ create mode 100644 Integration/03_Key_Concepts.md
+ create mode 100644 Integration/04_Architecture_Patterns.md
+ create mode 100644 Integration/05_Hands_On_Labs.md
+ create mode 100644 Integration/06_Interview_Questions.md
+ create mode 100644 Integration/07_Trainer_Notes.md
+ create mode 100644 Integration/08_Common_Mistakes.md
+ create mode 100644 Integration/09_Whats_New.md
+ create mode 100644 LWC/00_README.md
+ create mode 100644 LWC/01_Official_Resources.md
+ create mode 100644 LWC/02_Learning_Path.md
+ create mode 100644 LWC/03_Key_Concepts.md
+ create mode 100644 LWC/04_Architecture_Patterns.md
+ create mode 100644 LWC/05_Hands_On_Labs.md
+ create mode 100644 LWC/06_Interview_Questions.md
+ create mode 100644 LWC/07_Trainer_Notes.md
+ create mode 100644 LWC/08_Common_Mistakes.md
+ create mode 100644 LWC/09_Whats_New.md
+ create mode 100644 MASTER_INSTRUCTIONS.md
+ create mode 100644 OmniStudio/00_README.md
+ create mode 100644 OmniStudio/01_Official_Resources.md
+ create mode 100644 OmniStudio/02_Learning_Path.md
+ create mode 100644 OmniStudio/03_Key_Concepts.md
+ create mode 100644 OmniStudio/04_Architecture_Patterns.md
+ create mode 100644 OmniStudio/05_Hands_On_Labs.md
+ create mode 100644 OmniStudio/06_Interview_Questions.md
+ create mode 100644 OmniStudio/07_Trainer_Notes.md
+ create mode 100644 OmniStudio/08_Common_Mistakes.md
+ create mode 100644 OmniStudio/09_Whats_New.md
+ create mode 100644 Prompt Builder/00_README.md
+ create mode 100644 Prompt Builder/01_Official_Resources.md
+ create mode 100644 Prompt Builder/02_Learning_Path.md
+ create mode 100644 Prompt Builder/03_Key_Concepts.md
+ create mode 100644 Prompt Builder/04_Architecture_Patterns.md
+ create mode 100644 Prompt Builder/05_Hands_On_Labs.md
+ create mode 100644 Prompt Builder/06_Interview_Questions.md
+ create mode 100644 Prompt Builder/07_Trainer_Notes.md
+ create mode 100644 Prompt Builder/08_Common_Mistakes.md
+ create mode 100644 Prompt Builder/09_Whats_New.md
+ create mode 100644 Release Notes/00_README.md
+ create mode 100644 Release Notes/01_Official_Resources.md
+ create mode 100644 Release Notes/02_Learning_Path.md
+ create mode 100644 Release Notes/03_Key_Concepts.md
+ create mode 100644 Release Notes/04_Architecture_Patterns.md
+ create mode 100644 Release Notes/05_Hands_On_Labs.md
+ create mode 100644 Release Notes/06_Interview_Questions.md
+ create mode 100644 Release Notes/07_Trainer_Notes.md
+ create mode 100644 Release Notes/08_Common_Mistakes.md
+ create mode 100644 Release Notes/09_Whats_New.md
+ create mode 100644 Salesforce Platform/00_README.md
+ create mode 100644 Salesforce Platform/01_Official_Resources.md
+ create mode 100644 Salesforce Platform/02_Learning_Path.md
+ create mode 100644 Salesforce Platform/03_Key_Concepts.md
+ create mode 100644 Salesforce Platform/04_Architecture_Patterns.md
+ create mode 100644 Salesforce Platform/05_Hands_On_Labs.md
+ create mode 100644 Salesforce Platform/06_Interview_Questions.md
+ create mode 100644 Salesforce Platform/07_Trainer_Notes.md
+ create mode 100644 Salesforce Platform/08_Common_Mistakes.md
+ create mode 100644 Salesforce Platform/09_Whats_New.md
+ create mode 100644 Security/00_README.md
+ create mode 100644 Security/01_Official_Resources.md
+ create mode 100644 Security/02_Learning_Path.md
+ create mode 100644 Security/03_Key_Concepts.md
+ create mode 100644 Security/04_Architecture_Patterns.md
+ create mode 100644 Security/05_Hands_On_Labs.md
+ create mode 100644 Security/06_Interview_Questions.md
+ create mode 100644 Security/07_Trainer_Notes.md
+ create mode 100644 Security/08_Common_Mistakes.md
+ create mode 100644 Security/09_Whats_New.md
+ create mode 100644 Wealth/00_README.md
+ create mode 100644 Wealth/01_Official_Resources.md
+ create mode 100644 Wealth/02_Learning_Path.md
+ create mode 100644 Wealth/03_Key_Concepts.md
+ create mode 100644 Wealth/04_Architecture_Patterns.md
+ create mode 100644 Wealth/05_Hands_On_Labs.md
+ create mode 100644 Wealth/06_Interview_Questions.md
+ create mode 100644 Wealth/07_Trainer_Notes.md
+ create mode 100644 Wealth/08_Common_Mistakes.md
+ create mode 100644 Wealth/09_Whats_New.md
+ create mode 100755 create_stos_markdown.sh
+bakkaiah@Bakkaiahs-MacBook-Pro FSC-Knowedgebase % git status
+On branch master
+nothing to commit, working tree clean
+bakkaiah@Bakkaiahs-MacBook-Pro FSC-Knowedgebase % git init
+Reinitialized existing Git repository in /Users/bakkaiah/Developer/Co-Work/FSC-Knowedgebase/.git/
+bakkaiah@Bakkaiahs-MacBook-Pro FSC-Knowedgebase % git remote -v
+bakkaiah@Bakkaiahs-MacBook-Pro FSC-Knowedgebase % git remote add origin git@github.com:bakkaiahsf/FSC-Knowedgebase.git
+bakkaiah@Bakkaiahs-MacBook-Pro FSC-Knowedgebase % git remote -v
+origin	git@github.com:bakkaiahsf/FSC-Knowedgebase.git (fetch)
+origin	git@github.com:bakkaiahsf/FSC-Knowedgebase.git (push)
+bakkaiah@Bakkaiahs-MacBook-Pro FSC-Knowedgebase % touch .gitignore
+bakkaiah@Bakkaiahs-MacBook-Pro FSC-Knowedgebase % nano .gitignore
+
+  UW PICO 5.09                                        File: .gitignore                                        Modified  
+
+node_modules/
+
+# Python
+__pycache__/
+*.pyc   
+
+# Environment
+.env 
+.env.*
+
+# Claude
+.claude/
+
+# OS
+Thumbs.db
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help         ^O WriteOut         ^R Read File        ^Y Prev Pg          ^K Cut Text         ^C Cur Pos          
+^X Exit             ^J Justify          ^W Where is         ^V Next Pg          ^U UnCut Text       ^T To Spell        
